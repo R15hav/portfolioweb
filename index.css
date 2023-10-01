@@ -7,6 +7,7 @@
     position: absolute;
     padding-top: 20px;
     padding-bottom: 20px;
+    background-color: black;
 }
 
 .nav-link{
@@ -56,3 +57,12 @@
       border-color: transparent
     }
   }
+
+.section> div> div> ul> li{
+    color:aliceblue;
+    font-size: 20px;
+    font-family: monospace;
+}
+.section> div> div> ul> li:hover{
+    color: aqua;
+}
