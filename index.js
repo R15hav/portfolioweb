@@ -5,13 +5,20 @@ function initTyping(event) {
     var h1 = document.getElementById(eleId);
     h1.classList.add('typing')
 
-    // //set the projects to display none then below display after above typing is completed
-    // if(eleId=='scrollspyHeading2'){
-    //     setTimeout(() => {
-    //         document.getElementById('projects-content').classList.remove('d-none');
-
-    //     }, 5000);
-    // }
+    //set the projects to display none then below display after above typing is completed
+    if(eleId=='scrollspyHeading2'){
+        setTimeout(() => {
+            var proj=document.getElementById('projects-content');
+            proj.classList.remove('d-none');
+            // var listOfProj=proj.children[0].children[0].children;
+            // for (let index = 0; index < listOfProj.length; index++) {
+            //     const element = listOfProj[index];
+            //     element.classList.add('typing');
+            //     setTimeout('',5000);
+            // }
+            
+        }, 5000);
+    }
 
     idList.forEach(element => {
         if (element != eleId) {
