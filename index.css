@@ -65,4 +65,5 @@
 }
 .section> div> div> ul> li:hover{
     color: aqua;
+    cursor: pointer;
 }
