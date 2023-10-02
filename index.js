@@ -28,13 +28,25 @@ function initTyping(event) {
     });
 }
 
+
+//Set projects in li from config
+function setProjects() {
+    console.log(1);
+    console.log(2);
+    var ul=document.getElementById('project-list');
+    console.log(3);
+    details.forEach(element => {
+        console.log(4);
+        var li =`<li onclick="openDetails(event)" id="${element.id}">${element.name}</li>`;
+        console.log(5);
+        ul.innerHTML+=li;
+        console.log(6);
+    });
+    console.log(7);
+}
+
+
 //Display project details on click of the li 
-var details=[
-    {
-        name:'Glacier',
-        value:'This is a chat app developed using bla bla bla...'
-    }
-]
 function openDetails(event) {
     var detailsElement= document.getElementById('project-details');
     var detailsHeader = document.getElementById('project-details-header');
@@ -43,8 +55,8 @@ function openDetails(event) {
     detailsHeader.classList.add('typing');
     setTimeout(() => {
         details.forEach(element => {
-            if(element.name==event.target.id){
-                detailsElement.innerHTML=element.value;
+            if(element.id==event.target.id){
+                detailsElement.innerHTML=element.desc;
                 detailsElement.classList.remove('d-none')
             }
         });
