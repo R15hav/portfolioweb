@@ -4,3 +4,4 @@ animation: typing 2s steps(22), blink .5s step-end infinite alternate;
 keyframe
 document.getElementById(element).classList.remove('typing');
 document.getElementById('project-list').innerHTML+=li;
+document.addEventListener("DOMContentLoaded", function(){...});

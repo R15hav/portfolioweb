@@ -31,18 +31,11 @@ function initTyping(event) {
 
 //Set projects in li from config
 function setProjects() {
-    console.log(1);
-    console.log(2);
     var ul=document.getElementById('project-list');
-    console.log(3);
     details.forEach(element => {
-        console.log(4);
         var li =`<li onclick="openDetails(event)" id="${element.id}">${element.name}</li>`;
-        console.log(5);
         ul.innerHTML+=li;
-        console.log(6);
     });
-    console.log(7);
 }
 
 
