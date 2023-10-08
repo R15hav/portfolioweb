@@ -43,14 +43,19 @@ function setProjects() {
 function openDetails(event) {
     var detailsElement= document.getElementById('project-details');
     var detailsHeader = document.getElementById('project-details-header');
+    var detailButtons = document.getElementById('proj-buttons');
     detailsElement.classList.add('d-none')
+    detailButtons.classList.add('d-none')
     detailsHeader.classList.remove('d-none');
     detailsHeader.classList.add('typing');
     setTimeout(() => {
         details.forEach(element => {
             if(element.id==event.target.id){
                 detailsElement.innerHTML=element.desc;
-                detailsElement.classList.remove('d-none')
+                detailsElement.classList.remove('d-none');
+                detailButtons.children[0].href=element.demo;
+                detailButtons.children[1].href=element.github;
+                detailButtons.classList.remove('d-none');
             }
         });
         detailsHeader.classList.add('d-none');

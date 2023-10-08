@@ -5,3 +5,4 @@ keyframe
 document.getElementById(element).classList.remove('typing');
 document.getElementById('project-list').innerHTML+=li;
 document.addEventListener("DOMContentLoaded", function(){...});
+open link in new tab > target="_blank" rel="noopener noreferrer"

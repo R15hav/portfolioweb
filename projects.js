@@ -2,21 +2,30 @@ var details=[
     {
         id:'Glacier',
         name: 'Glacier Chat App',
-        desc:'This is a chat app developed using bla bla bla...',
+        demo:"https://glacier0.netlify.app/",
+        github:"https://github.com/R15hav",
+        desc:'A Chat App develeoped using React js and Firebase.',
+    },
+    {
+        id:'Inventory',
+        name: 'Inventory Management',
+        demo:"https://regalcar.netlify.app/",
+        github:"https://github.com/R15hav",
+        desc:'React based Inventory management system for wholesale Business.',
     },
     {
         id:'GameArena',
         name: 'Game Arena',
-        desc:'Game distribution site using flask',
+        demo:"https://glacier0.netlify.app/",
+        github:"https://github.com/R15hav/game-distribution-template",
+        desc:'A Flask (Python) game distribution site template.',
     },
     {
-        id:'Apticalc',
-        name: 'Apticalc',
-        desc:'Aptitude calculator using vanill HTML, CSS and JS',
-    },
-    {
-        id:'OpenSourced',
-        name: 'OpenSourced Store',
-        desc:'Store for opensource software from github',
-    },
+        id:'GameArena',
+        name: 'Game Arena',
+        demo:"https://glacier0.netlify.app/",
+        github:"https://github.com/R15hav/game-distribution-template",
+        desc:'A Flask (Python) game distribution site template.',
+    }
+    
 ]
