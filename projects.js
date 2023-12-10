@@ -4,7 +4,7 @@ var details=[
         name: 'Glacier Chat App',
         demo:"https://glacier0.netlify.app/",
         github:"https://github.com/R15hav",
-        desc:'A Chat App develeoped using React js and Firebase.',
+        desc:'A Chat App developed using React js and Firebase.',
     },
     {
         id:'Inventory',
@@ -21,11 +21,11 @@ var details=[
         desc:'A Flask (Python) game distribution site template.',
     },
     {
-        id:'GameArena',
-        name: 'Game Arena',
-        demo:"https://glacier0.netlify.app/",
-        github:"https://github.com/R15hav/game-distribution-template",
-        desc:'A Flask (Python) game distribution site template.',
+        id:'AptiCalc',
+        name: 'Apti Calc',
+        demo:"https://github.com/R15hav/AptiCalc",
+        github:"https://github.com/R15hav/AptiCalc",
+        desc:'An HTML, CSS, JS based Scientific Calculator.',
     }
     
 ]

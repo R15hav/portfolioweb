@@ -46,18 +46,25 @@ function openDetails(event) {
     var detailButtons = document.getElementById('proj-buttons');
     detailsElement.classList.add('d-none')
     detailButtons.classList.add('d-none')
+    detailsHeader.classList.remove('details-header');
+    detailsHeader.innerText = 'Initiating Projects...';
     detailsHeader.classList.remove('d-none');
     detailsHeader.classList.add('typing');
     setTimeout(() => {
         details.forEach(element => {
             if(element.id==event.target.id){
+                detailsHeader.classList.remove('typing');
+                detailsHeader.innerText = element.name;
+                detailsHeader.classList.add('h1');
+                detailsHeader.classList.add('details-header');
                 detailsElement.innerHTML=element.desc;
                 detailsElement.classList.remove('d-none');
+                detailsElement.classList.add('project-details');
                 detailButtons.children[0].href=element.demo;
                 detailButtons.children[1].href=element.github;
                 detailButtons.classList.remove('d-none');
             }
         });
-        detailsHeader.classList.add('d-none');
+        //detailsHeader.classList.add('d-none');
     }, 5000);
 }

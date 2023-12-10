@@ -66,4 +66,40 @@
 .section> div> div> ul> li:hover{
     color: aqua;
     cursor: pointer;
+    text-shadow: 0px 0px 1px 1px aqua;
+}
+
+.Proj_Button, .Proj_Button:hover{
+    background-color: rgba(0, 0, 0, 0); 
+    color: azure;
+}
+
+.Proj_Button:hover{
+    color: yellow;
+    box-shadow: 0px 0px 15px 1px yellow;
+}
+
+.text_intro{
+    color: rgb(210, 184, 99)
+}
+
+.project-details{
+    color: white;
+    font-size: 50px;
+}
+
+.details-header{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#linkedin,#youtube,#github{
+    width: 188px;
+    height: 188px;
+    transition: width 0.5s, height 0.5s;
+}
+#linkedin:hover,#youtube:hover,#github:hover{
+    height: 200px;
+    width: 200px;
 }
