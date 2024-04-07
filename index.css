@@ -28,7 +28,8 @@
 }
 
 .section{
-    height: 100%;
+    min-height: 100vh;
+    max-height: 100vh;
     padding: 60px 20px;
     font-family: monospace;
     font-size: 50px;
@@ -85,7 +86,12 @@
 
 .project-details{
     color: white;
-    font-size: 50px;
+    font-size: 40px;
+}
+
+.project-details-small{
+    color: white;
+    font-size: 30px;
 }
 
 .details-header{
