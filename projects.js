@@ -16,7 +16,7 @@ var details=[
     {
         id:'GameArena',
         name: 'Game Arena',
-        demo:"https://glacier0.netlify.app/",
+        demo:"https://gamearena.onrender.com/",
         github:"https://github.com/R15hav/game-distribution-template",
         desc:'A Flask (Python) game distribution site template.',
     },
